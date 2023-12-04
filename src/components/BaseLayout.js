@@ -57,7 +57,7 @@ export default function BaseLayout() {
           <Routes>
             <Route exact path={'/'} element={<Home darkMode={darkMode} />} />
             <Route exact path={'/about'} element={<About />} />
-            <Route exact path={'/portfolio'} element={<Portfolio />} />
+            {/* <Route exact path={'/portfolio'} element={<Portfolio />} /> */}
           </Routes>
         </Grid>
         <Grid item>
@@ -71,12 +71,7 @@ export default function BaseLayout() {
             width={'100%'}
           >
             <p>
-              template created with &hearts; by{' '}
-              <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
-            </p>
-            <p>
-              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>,
-              redesigned with &hearts; by <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
+              bhaskar kulkarni
             </p>
             <p>&copy; 2023</p>
           </Box>
