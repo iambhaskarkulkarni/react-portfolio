@@ -26,7 +26,7 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://andy8647.com/andy.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: 'https://bhaskar-kulkarni.vercel.app/resume.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file',
       label: 'resume',
     },
@@ -36,12 +36,12 @@ export const info = {
     //   label: 'instagram',
     // },
     {
-      link: 'https://github.com/Andy8647',
+      link: 'https://github.com/iambhaskarkulkarni',
       icon: 'fa fa-github',
       label: 'github',
     },
     {
-      link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
+      link: 'https://linkedin.com/in/bhaskar-kulkarni-2a1b23103',
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
@@ -63,7 +63,7 @@ export const info = {
       'Redux',
       'Material UI',
       'Express',
-      'Bootstrap/jQuery'
+      'Bootstrap/jQuery',
     ],
     databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
     cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
