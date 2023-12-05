@@ -74,16 +74,16 @@ export default function About() {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{' '}
-          cd hobbies/interests
+          cd industry_experience
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
-            hobbies/interests <span className={Style.green}>(main)</span> $
+            industry_experience <span className={Style.green}>(main)</span> $
           </span>{' '}
           ls
         </p>
         <ul>
-          {info.hobbies.map((hobby, index) => (
+          {info.experience.map((hobby, index) => (
             <li key={index}>
               <Box component={'span'} mr={'1rem'}>
                 {hobby.emoji}

@@ -12,7 +12,7 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: 'IN',
+      emoji: '🇮🇳',
       text: 'based in the Bengaluru, India',
     },
     {
@@ -55,7 +55,7 @@ export const info = {
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
-    languages: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'Python', 'HTML/CSS'],
+    languages: ['Java', 'EJB3', 'JavaScript', 'Node JS', 'TypeScript', 'HTML/CSS'],
     frameworks: [
       'Spring',
       'Spring Boot',
@@ -65,7 +65,7 @@ export const info = {
       'Express',
       'Bootstrap/jQuery',
     ],
-    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
+    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', ' Cassandra'],
     cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
     tools: [
       'Git',
@@ -80,37 +80,43 @@ export const info = {
       'Jira',
       'Confluence',
       'Bitbucket',
+      'Kubernetese',
     ],
   },
-  hobbies: [
+  experience: [
     {
-      label: 'Photography',
-      emoji: '📷',
+      label:
+        'Worked as a Senior Software Engineer in Advaya Softech Pvt Ltd., Bangalore from November 2015 to Oct 2019.',
+      // emoji: '📷',
+      emoji: '🏢',
     },
     {
-      label: 'Video Games',
-      emoji: '🎮',
+      label:
+        'Worked as a Senior Software Engineer in 6d Technologies, Bangalore from Oct 2019 to December 2020',
+      emoji: '🏢',
     },
     {
-      label: 'Guitar',
-      emoji: '🎸',
+      label:
+        'Worked as a Senior Software Engineer in Mphasis Ltd.  Bengaluru from Jan 2021 to May 2022. ',
+      emoji: '🏢',
     },
     {
-      label: 'Anime',
-      emoji: '🎞',
+      label:
+        'Worked as a Staff Engineer in Cardinal Health & Outcomes in Bengaluru from May 2022 to Nov 2023',
+      emoji: '🏢',
     },
-    {
-      label: 'Cooking',
-      emoji: '🍳',
-    },
-    {
-      label: 'Traveling',
-      emoji: '✈️',
-    },
-    {
-      label: 'Fishing',
-      emoji: '🎣',
-    },
+    // {
+    //   label: 'Cooking',
+    //   emoji: '🍳',
+    // },
+    // {
+    //   label: 'Traveling',
+    //   emoji: '✈️',
+    // },
+    // {
+    //   label: 'Fishing',
+    //   emoji: '🎣',
+    // },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
